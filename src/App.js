@@ -5,17 +5,17 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src="./IMG_8063.jpg" className="App-logo" alt="logo" />
         <p>
           Hello
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://instagram.com/a_merikank_a?utm_medium=copy_link"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Instagram
         </a>
       </header>
     </div>
