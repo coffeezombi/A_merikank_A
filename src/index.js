@@ -3,10 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Navigation from './components/navigation/navigation';
+import Header from './components/header/header';
+import Products from './components/products/products';
+import Footer from './components/footer/footer';
+
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Navigation />
+    <Header />
+    <Products />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );
