@@ -7,7 +7,9 @@ import Navigation from './components/navigation/navigation';
 import Header from './components/header/header';
 import Products from './components/products/products';
 import Footer from './components/footer/footer';
-
+import Amplify from 'aws-amplify';
+import config from './aws-exports';
+Amplify.configure(config);
 
 ReactDOM.render(
   <React.StrictMode>
